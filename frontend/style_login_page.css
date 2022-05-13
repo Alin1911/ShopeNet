@@ -29,9 +29,9 @@ body {
   top: 15%;
   right: 5%;
   height: fit-content;
-  min-width: 250px;
+  min-width: 500px;
   min-height: 350px;
-  max-width: 250px;
+  max-width: 1000px;
 
   background: linear-gradient(
     180.2deg,
@@ -52,7 +52,26 @@ body {
   font-size: 30px;
   color: #5352ed;
   text-align: center;
-  margin-top: 15%;
+  margin-top: 10%;
+}
+
+.Motiv {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #5352ed;
+  text-align: left;
+  margin-top: 1%;
+}
+.Email {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #5352ed;
+  /* text-align: left; */
+  margin-top: 5%;
 }
 
 .text-box {
@@ -94,7 +113,18 @@ body {
   border-radius: 15px;
   width: 30%;
   height: 30px;
-  margin-top: 10%;
+  margin-top: 2%;
+  /* height: fit-content; */
+  cursor: pointer;
+}
+.reset {
+  outline: none;
+  background-color: #5352ed;
+  border: none;
+  border-radius: 15px;
+  width: 30%;
+  height: 30px;
+  margin-top: 5%;
   /* height: fit-content; */
   cursor: pointer;
 }
